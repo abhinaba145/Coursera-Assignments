@@ -12,6 +12,13 @@ body{
 	padding-bottom: 20px;
 }
 
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
 .navbar-brand{
 	padding-top:25px;
 }
@@ -51,60 +58,46 @@ body{
  	clear: both;
  	margin-top: -30px;
  }
+
+
  /* End of Header */
 
  
 /* Home Page */
- 
-.para{
- 	background-color:#f6b319; 
 
- }
- section p{
- 	margin-right: 10px;
- 	margin-left: 10px;
- 	text-align: justify;
- }
- 
-
-
- /* For Large Device */
-
- @media(min-width: 1200px){
-
- 	.para{
- 		margin-right: -70px;
- 		margin-left: -70px;
- 	}
- 	
- }
-
- /* For Medium Device */
-
-@media(min-width: 992px) and (max-width: 1199px){
-	
+#main-content {
+    width: 92%;
+    margin-bottom: 40px;
 }
 
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
 
-/* For Small Device */
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
 
-@media(min-width: 768px) and (max-width: 991px){
+.row {
+    background-color: #f6b319;
+    box-shadow: 0 0 50px #0f5900;
+    padding: 30px;
+}
 
-	
-	
-	}
 /* For Extra Small Device */
 
 @media(max-width: 767px){
-	.para{
-		margin-right: 40px;
-		margin-left: 40px;
-	}
+	
 
 	/*Header*/
 	.navbar-brand{
 		padding-top: 10px;
-		height: 80px;
+		height: 35px;
 	}
 	.navbar-brand h1{
 		/* Restaurant Name */
@@ -117,10 +110,8 @@ body{
 		/* Collapsed nav menu glyph */
 		font-size: 1.2em;
 	}
-	
 
-  
- 
+
 
  
 
